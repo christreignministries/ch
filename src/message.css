@@ -1,0 +1,116 @@
+.devotional-image {
+  display: flex;
+  width: 100%;
+}
+.devotional-image {
+  justify-content: center;
+  object-fit: cover;
+}
+.message-text {
+  margin: 0px 5% 0px 5%;
+  font-size: 100%;
+}
+.paragraph {
+  margin: 5% 0px 5% 0px;
+  font-weight: 400;
+}
+.message-title {
+  margin: 5% 0px -2% 0px;
+  font-weight: 600;
+  font-size: 120%;
+}
+.paragraph-a {
+  margin: 5% 0px 0% 0px;
+  font-weight: 600;
+}
+.benefits {
+  margin: 5% 0px 0% 0px;
+  font-weight: 600;
+}
+.benefits-child {
+  margin: 2% 0px 2% 0px;
+}
+.prev {
+  outline: none;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  margin: 0px 5% 5% 5%;
+}
+
+.next2 {
+  outline: none;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  margin: 0px 0% 5% 70%;
+}
+
+.prev:hover {
+  color: black;
+}
+.next2:hover {
+  color: black;
+}
+.search-button {
+  outline: none;
+  border: none;
+  padding: 0px 20px 0px 20px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 5px;
+  height: 35px;
+}
+.next:hover {
+  color: black;
+}
+@media only screen and (max-width: 800px) {
+  .devotional-image {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .next2 {
+    font-size: 75%;
+    margin: 0px 5% 0% 65%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .next2 {
+    font-size: 75%;
+    margin: 0px 0% 0% 65%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .next2 {
+    font-size: 75%;
+    margin: 0px 0% 0% 60%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .next2 {
+    font-size: 75%;
+    margin: 0px 0% 0% 55%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .next2 {
+    font-size: 75%;
+    margin: 0px 0% 0% 50%;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .next2 {
+    font-size: 75%;
+    margin: 0px 0% 0% 45%;
+  }
+}
