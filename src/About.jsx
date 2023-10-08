@@ -49,8 +49,8 @@ const About = () => {
             <div className="details">
               <button>Our Mission</button>
 
-              <h2>Destroying the yoke of</h2>
-              <h2>Delay</h2>
+              <h2>Destroying the yoke of delay in</h2>
+            
               <h2>Marriage</h2>
               <h2>Pregnancy</h2>
             </div>

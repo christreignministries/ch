@@ -8,6 +8,7 @@ import Devotionals from "./Devotionals";
 import ContactUs from "./contact";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import TopIcons from "./topIcons";
+import Testimonies from "./testimonies";
 import Partnership from "./partnership";
 import Message1 from "./God-is-looking-for-a-man";
 import Message2 from "./When-I-was-a-child";
@@ -70,6 +71,7 @@ class App extends Component {
             path="/Sermon/Life-in-The-Spirit-Seminar-Teachings-b"
             element={<Message9 />}
           />
+          <Route path="/testimonies" element={<Testimonies />} />
           <Route path="/partnership" element={<Partnership />} />
           <Route path="/programs" element={<Program />} />
           <Route path="/countdown" element={<Countdown />} />

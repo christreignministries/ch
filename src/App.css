@@ -239,6 +239,7 @@ html {
   position: relative;
   top: 20px;
   padding-top: 1px;
+  z-index: 99;
 }
 .testimonies {
   text-align: center;
@@ -409,11 +410,8 @@ html {
   background-color: rgb(245, 245, 245);
 }
 .events-grid {
-  display: flex;
   border-top-left-radius: 10px;
   margin: 20px 20px 20px 20px;
-  justify-content: center;
-  align-items: center;
 }
 .upcoming-program {
   position: relative;
@@ -481,7 +479,7 @@ html {
 }
 .become-a-believer {
   font-size: 100%;
-  margin: 3% 0% 1% 0%;
+  margin: 1.5% 0% 2% 0%;
 }
 .quotes-text {
   font-size: 110%;
@@ -594,7 +592,7 @@ html {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  margin: 6% 5% 2% 5%;
+  margin: 1% 5% -5% 5%;
 }
 .get-started {
   background-color: orange;
@@ -857,6 +855,9 @@ html {
   .salvation-prayer {
     font-size: 120%;
     font-weight: 500;
+  }
+  .new-converts {
+    margin: 2% 5% 7% 5%;
   }
 
   @media only screen and (max-width: 600px) {

@@ -167,12 +167,12 @@ class Home extends Component {
               </div>
             </div>
           </div>
-        
-          <div className="testimonies-header">
-            <h1 className="testimonies">Testimonies</h1>
-            <div className="testimonies-underline"></div>
-          </div>
-          
+          <Link to="/testimonies" className="routes" onClick={this.scrollUp}>
+            <div className="testimonies-header">
+              <h1 className="testimonies">Testimonies</h1>
+              <div className="testimonies-underline"></div>
+            </div>
+          </Link>
           <div className="testimonies-items">
             <div className="testimonies-a">
               <h2 className="names">MRS. RUTH PIUS</h2>
@@ -265,11 +265,11 @@ class Home extends Component {
             </h3>
             <h4 className="salvation-prayer">{prayer[0]}</h4>
           </div>
-          <div className="facebook-video">
+          <div className="iframe-parent">
             <iframe
               title="declaration-video"
               className="video"
-              src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2FChristreignministries%2Fvideos%2F123182110513232%2F&show_text=false&width=560&t=0"
+              src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FChristreignministries%2Fvideos%2F581311630726307%2F&show_text=false&width=560&t=0"
               width="560"
               height="600"
               style={{ border: "none", overflow: "hidden" }}

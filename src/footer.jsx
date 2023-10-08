@@ -46,6 +46,11 @@ const Footer = () => {
               </Link>
             </li>
             <li>
+              <Link to="/testimonies" className="routes" onClick={scrollUp}>
+                Testimonies
+              </Link>
+            </li>
+            <li>
               <Link to="/contact-us" className="routes" onClick={scrollUp}>
                 Contact us
               </Link>

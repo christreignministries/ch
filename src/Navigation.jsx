@@ -95,6 +95,15 @@ class Navigation extends Component {
           </li>
           <li>
             <Link
+              to="/testimonies"
+              className="routes"
+              onClick={() => this.setState({ giving: false })}
+            >
+              Testimonies
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact-us"
               className="routes"
               onClick={() => this.setState({ giving: false })}
