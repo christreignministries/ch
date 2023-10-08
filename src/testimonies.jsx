@@ -4,6 +4,8 @@ import "./testimonies.css";
 import { testimoniesSource } from "./testimoniesSource";
 import Footer from "./footer";
 import Typewriter from "typewriter-effect";
+import Swal from "sweetalert2";
+import "sweetalert2/dist/sweetalert2.min.css";
 
 const Testimonies = () => {
   const [search, setSearch] = useState("");
@@ -14,10 +16,13 @@ const Testimonies = () => {
     });
   };
 
+  const test = () => {
+    Swal.fire("Good job!", "You clicked the button!", "success");
+  };
+
   return (
     <div className="parent-bg">
       <hr className="ruler" />
-
       <div className="top-header">
         <h3>Category</h3>
         <h2 className="devotional">
@@ -73,7 +78,7 @@ const Testimonies = () => {
           </div>
         </div>
       </div>
-
+      <button onClick={test}> test</button>
       <Footer />
     </div>
   );

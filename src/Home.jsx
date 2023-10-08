@@ -8,6 +8,7 @@ import { quotes, testimonies2, prayer } from "./exportedText";
 import { FaQuoteLeft } from "react-icons/fa";
 import PartnerImage from "./Images/IMG_6214 copy.webp";
 import swal from "sweetalert";
+import "sweetalert2/dist/sweetalert2.min.css";
 import {
   addDoc,
   collection,
@@ -134,7 +135,9 @@ class Home extends Component {
               <Link to="/Sermon">
                 <button className="learn-more">Learn More</button>
               </Link>
+              <div></div>
             </div>
+
             <img
               src={images[count]}
               className="contact-us-image"
@@ -155,8 +158,9 @@ class Home extends Component {
                   WELCOME TO INCREASE CITY CHURCH (CRFCOAN)
                 </h3>
                 <h4>
-                  We are glad to have you here, we hope that you have a blessed
-                  time with us.
+                  A place where christ cannot reign and things still remain the
+                  same. We are glad to have you here, we hope that you have a
+                  blessed time with us.
                 </h4>
 
                 <Link to="/about">
@@ -217,7 +221,7 @@ class Home extends Component {
           </div>
           <div className="events-div">
             <div className="upcoming-program">
-              <h3>UPCOMING PROGRAMS</h3>
+              <h3>ONGOING/UPCOMING PROGRAMS</h3>
 
               <Link
                 to="/programs"

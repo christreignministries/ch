@@ -43,14 +43,16 @@ const About = () => {
           <div className="about-a">
             <h1 className="church-name">INCREASE CITY CHURCH(CRFCOAN)</h1>
             <h2>
-              Increase City Church(Christ Reign Forever Church Of All Nations)
-              was founded day month year.
+              Christ Reign Forever Church of All Nation (Increase City) is a
+              non-denominational/ Inter-denominational ministry designed around
+              a straightforward and strategic process that moves people through
+              the stages of spiritual growth.
             </h2>
             <div className="details">
               <button>Our Mission</button>
 
               <h2>Destroying the yoke of delay in</h2>
-            
+
               <h2>Marriage</h2>
               <h2>Pregnancy</h2>
             </div>

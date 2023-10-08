@@ -23,7 +23,12 @@ import Message8 from "./Life-in-The-Spirit-Seminar-Teachings";
 import Message9 from "./Life-in-The-Spirit-Seminar-Teachings-b";
 
 class App extends Component {
-  state = {};
+  state = {
+    presentSecond: "",
+    presentDay: "",
+    presentHour: "",
+    presentminute: "",
+  };
 
   scrollUp = () => {
     window.scrollTo({
@@ -31,7 +36,6 @@ class App extends Component {
       behavior: "smooth",
     });
   };
-
   render() {
     return (
       <Router>
