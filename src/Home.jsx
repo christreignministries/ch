@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { images } from "./exportedImage";
+import Countdown from "./countdown";
 import ChurchImage from "./Images/IMG_4930 copy.webp";
 import Footer from "./footer";
 import { Event } from "./exportedImage";
@@ -135,7 +136,11 @@ class Home extends Component {
               <Link to="/Sermon">
                 <button className="learn-more">Learn More</button>
               </Link>
-              <div></div>
+              <div>
+                <div>
+                  <Countdown />
+                </div>
+              </div>
             </div>
 
             <img

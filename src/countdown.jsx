@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const countdown = () => {
+const Countdown = () => {
   const targetDate = new Date("11/30/2023");
   const today = new Date();
   const second = 1000;
@@ -47,13 +47,15 @@ const countdown = () => {
 
   return (
     <div>
-      <h3 style={{ textAlign: "center" }}>Countdown to Increase Celebration</h3>
+      <h3 style={{ textAlign: "left", marginTop: "5%", fontSize: "80%" }}>
+        Countdown to Increase Celebration
+      </h3>
       <div
         style={{
           display: "flex",
           gap: "15px",
-          fontSize: "70%",
-          justifyContent: "center",
+          fontSize: "50%",
+          justifyContent: "left",
         }}
       >
         <h1 className="time">{presentDay + "days"}</h1>
@@ -65,4 +67,4 @@ const countdown = () => {
   );
 };
 
-export default countdown;
+export default Countdown;
