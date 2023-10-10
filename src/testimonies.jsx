@@ -16,10 +16,6 @@ const Testimonies = () => {
     });
   };
 
-  const test = () => {
-    Swal.fire("Good job!", "You clicked the button!", "success");
-  };
-
   return (
     <div className="parent-bg">
       <hr className="ruler" />
@@ -78,7 +74,7 @@ const Testimonies = () => {
           </div>
         </div>
       </div>
-      <button onClick={test}> test</button>
+
       <Footer />
     </div>
   );
