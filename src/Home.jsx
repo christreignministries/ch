@@ -42,7 +42,7 @@ class Home extends Component {
         count: Math.floor(Math.random() * images.length) + 0,
         quotesCount: Math.floor(Math.random() * quotes.length) + 0,
       }));
-    }, 10000);
+    }, 12000);
   };
 
   componentWillUnmount = () => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./giving.css";
-import ImageHeader from "./Images/images---2022-09-06T222924.webp";
-import GivingImage from "./Images/images - 2022-09-04T172252.448 copy.webp";
+import ImageHeader from "./Images/giving-image.webp";
+import GivingImage from "./Images/giving-image.webp";
 import Footer from "./footer";
 
 const Giving = () => {
@@ -85,7 +85,7 @@ const Giving = () => {
             <div className="pay-via-transfer">
               <div className="bank-accounts">Project EcoBank 5811034038</div>
               <div className="bank-accounts">Offering Access 0065675723</div>
-              <div className="bank-accounts">Partner's UBA 28110805625</div>
+              <div className="bank-accounts">Partner's UBA 2110805625</div>
               <div className="bank-accounts">Tithe Access 0067378664</div>
               <div className="bank-accounts">SeedFaith Access 0067380270</div>
               <div className="bank-accounts">First Fruit 0086696220</div>
