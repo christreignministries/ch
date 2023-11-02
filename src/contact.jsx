@@ -16,7 +16,7 @@ import {
   serverTimestamp,
 } from "firebase/firestore";
 import firestore from "./firebase";
-import swal from "sweetalert";
+import swal from "sweetalert2";
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -81,7 +81,11 @@ const ContactUs = () => {
       setButton(true);
 
       setTimeout(() => {
-        swal(`${name}`, "", "Your testimony has been submitted, stay blessed.");
+        swal.fire(
+          `${name}, Your testimony has been submitted, stay blessed.`,
+          "",
+          "success"
+        );
         setSpinner(false);
         setButton(false);
         setName("");
