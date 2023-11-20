@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Countdown = () => {
-  const targetDate = new Date("11/30/2023");
+  const targetDate = new Date("11/29/2023 16:00");
   const today = new Date();
   const second = 1000;
   const minute = second * 60;

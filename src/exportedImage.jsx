@@ -9,8 +9,9 @@ import Image7 from "./Images/IMG_5514 copy.webp";
 import Image8 from "./Images/IMG_6706 copy.webp";
 import Image9 from "./Images/DAY-3-INCREASE-CELEBRATION-(26) copy.webp";
 import Image10 from "./Images/Welcome-to-2023-Design-copy copy.webp";
-import Image11 from "./Images/Welcome-to-November-2023.webp";
-import Image12 from "./Images/A-New-Beginning-Edit.webp";
+import Image11 from "./Images/Increase-Celebration-Countdown.webp";
+import Image12 from "./Images/Increase-celebration-2023.webp";
+import Day from "./Images/Increase-Celebration-Countdown-10-days.webp";
 
 export const images = [
   Image,
@@ -28,7 +29,7 @@ export const images = [
 export const Event = [
   {
     event: "Breakthrough Service",
-    image: Image11,
+    image: Day,
     href: "https://www.facebook.com/photo?fbid=515610897431462&set=a.395965186062701",
   },
   {
