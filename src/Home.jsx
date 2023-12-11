@@ -137,9 +137,7 @@ class Home extends Component {
                 <button className="learn-more">Learn More</button>
               </Link>
               <div>
-                <div>
-                  <Countdown />
-                </div>
+                <div>{/* <Countdown /> */}</div>
               </div>
             </div>
 
