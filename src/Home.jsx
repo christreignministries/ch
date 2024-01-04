@@ -276,7 +276,7 @@ class Home extends Component {
             <iframe
               title="declaration-video"
               className="video"
-              src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FChristreignministries%2Fvideos%2F581311630726307%2F&show_text=false&width=560&t=0"
+              src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fcrfcoan%2Fvideos%2F1017570792686243%2F&show_text=false&width=560&t=0"
               width="560"
               height="600"
               style={{ border: "none", overflow: "hidden" }}
